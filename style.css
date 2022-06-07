@@ -1,7 +1,7 @@
 body {
     background-color: rgb(230, 230, 230);
     font-family: 'Noto Sans TC', sans-serif;
-    background-image: url(picture/15.jpg);
+    background-image: url(picture/14.jpg);
 }
 .color {
     background-color:rgb(60, 100, 175) ;
@@ -50,7 +50,7 @@ body {
     top: 80px;
     left: 600px;
 }
-.na > ul {
+nav > ul {
     list-style: none; /*移除項目符號*/;
     margin: 0;
     padding: 0;
@@ -71,75 +71,134 @@ body {
     left: 40%;
     text-align: center;
  }
-.interest {
-    background-color: #84c1ff;
+.n a {
+    color: rgb(54, 141, 195);
+    display: block; /*讓<a>填滿<li>*/
+    font-size: 30px;
+    padding: 10px;
+    text-decoration: none; 
+    transform: translateY(0px);
+    transition: .4s;
+}
+.n a:hover {
+    transform: translateY(-5px);
+}
+.n {
+    background-color: white; 
+    font-size: 0;   /* 移除 <li> 之間的空隙 */
+    text-align: center;
+}
+.n li {
+    display: inline-block;
+}
+.interest1 {
+    background-color: #0054a8;
     font-family: 'Courier New', Courier, monospace;
-    width: 500px;
-    height: 500px;
+    width: 380px;
+    height: 270px;
     position: absolute;
     top: 100px;
-    left: 180px;
+    left: 500px;
     border-radius: 8px;
     float: left;
     padding: 30px 10px 10px 20px;
     color: white;
 }
 .photo2 img {
-    width: 18%;
+    width: 25%;
     position: absolute;
-    top: 80px;
-    left: 750px;
+    top: 150px;
+    left: 100px;
 }
 .photo2 figcaption {
     position: absolute;
-    top: 55px;
-    left: 750px;
+    top: 120px;
+    left: 100px;
+    color: white;
+}
+.interest2 {
+    background-color: #0054a8;
+    font-family: 'Courier New', Courier, monospace;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 420px;
+    left: 500px;
+    border-radius: 8px;
+    float: left;
+    padding: 30px 10px 10px 20px;
     color: white;
 }
 .photo3 img {
-    width: 25%;
+    width: 18%;
     position: absolute;
-    top: 470px;
-    left: 750px;
+    top: 420px;
+    left: 100px;
 }
 .photo3 figcaption {
     position: absolute;
-    top: 445px;
-    left: 750px;
+    top: 395px;
+    left: 100px;
+    color: white;
+}
+.interest3 {
+    background-color: #0054a8;
+    font-family: 'Courier New', Courier, monospace;
+    width: 250px;
+    height: 180px;
+    position: absolute;
+    top: 140px;
+    left: 1220px;
+    border-radius: 8px;
+    float: left;
+    padding: 30px 10px 10px 20px;
     color: white;
 }
 .photo4 img {
     width: 18%;
     position: absolute;
-    top: 430px;
-    left: 1150px;
+    top: 150px;
+    left: 930px;
 }
 .photo4 figcaption {
     position: absolute;
-    top: 405px;
-    left: 1150px;
+    top: 120px;
+    left: 930px;
+    color: white;
+}
+.interest4 {
+    background-color: #0054a8;
+    font-family: 'Courier New', Courier, monospace;
+    width: 250px;
+    height: 240px;
+    position: absolute;
+    top: 430px;
+    left: 1220px;
+    border-radius: 8px;
+    float: left;
+    padding: 30px 10px 10px 20px;
     color: white;
 }
 .photo5 img {
     width: 23%;
     position: absolute;
-    top: 80px;
-    left: 1100px;
+    top: 440px;
+    left: 850px;
 }
 .photo5 figcaption {
     position: absolute;
-    top: 55px;
-    left: 1100px;
+    top: 415px;
+    left: 850px;
     color: white;
 }
-.habit {
-    background-color: #84c1ff;
+.habit1 {
+    background-color: #0054a8;
     font-family: 'Courier New', Courier, monospace;
-    width: 500px;
-    height: 350px;
+    width: 300px;
+    height: 420px;
     position: absolute;
     top: 150px;
-    left: 180px;
+    left: 450px;
     border-radius: 8px;
     float: left;
     padding: 30px 10px 10px 20px;
@@ -149,34 +208,47 @@ body {
     width: 20%;
     position: absolute;
     top: 170px;
-    left: 750px;
+    left: 100px;
 }
 .photo6 figcaption {
     position: absolute;
     top: 145px;
-    left: 750px;
+    left: 100px;
+    color: white;
+}
+.habit2 {
+    background-color: #0054a8;
+    font-family: 'Courier New', Courier, monospace;
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 200px;
+    left: 1200px;
+    border-radius: 8px;
+    float: left;
+    padding: 30px 10px 10px 20px;
     color: white;
 }
 .photo7 img {
     width: 20%;
     position: absolute;
     top: 170px;
-    left: 1100px;
+    left: 850px;
 }
 .photo7 figcaption {
     position: absolute;
     top: 145px;
-    left: 1100px;
+    left: 850px;
     color: white;
 }
 .personality {
-    background-color: #84c1ff;
+    background-color: #0054a8;
     font-family: 'Courier New', Courier, monospace;
     width: 500px;
     height: 400px;
     position: absolute;
-    top: 150px;
-    left: 180px;
+    top: 170px;
+    left: 250px;
     border-radius: 8px;
     float: left;
     padding: 30px 10px 10px 20px;
@@ -185,16 +257,16 @@ body {
 .photo8 img {
     width: 20%;
     position: absolute;
-    top: 100px;
+    top: 120px;
     left: 830px;
 }
 .experience {
-    background-color: #84c1ff;
+    background-color: #0054a8;
     font-family: 'Courier New', Courier, monospace;
     width: 500px;
-    height: 550px;
+    height: 340px;
     position: absolute;
-    top: 90px;
+    top: 200px;
     left: 180px;
     border-radius: 8px;
     float: left;
@@ -238,12 +310,12 @@ body {
     color: white;
 }
 .goal {
-    background-color: #84c1ff;
+    background-color: #0054a8;
     font-family: 'Courier New', Courier, monospace;
     width: 500px;
     height: 310px;
     position: absolute;
-    top: 170px;
+    top: 230px;
     left: 180px;
     border-radius: 8px;
     float: left;
@@ -251,38 +323,26 @@ body {
     color: white;
 }
 .photo12 img {
-    width: 20%;
+    width: 25%;
     position: absolute;
-    top: 395px;
+    top: 250px;
     left: 1100px;
 }
 .photo12 figcaption {
     position: absolute;
-    top: 370px;
+    top: 220px;
     left: 1100px;
     color: white;
 }
 .photo13 img {
-    width: 20%;
+    width: 22%;
     position: absolute;
-    top: 135px;
-    left: 1100px;
+    top: 250px;
+    left: 750px;
 }
 .photo13 figcaption {
     position: absolute;
-    top: 110px;
-    left: 1100px;
-    color: white;
-}
-.photo14 img {
-    width: 20%;
-    position: absolute;
-    top: 195px;
-    left: 750px;
-}
-.photo14 figcaption {
-    position: absolute;
-    top: 170px;
+    top: 220px;
     left: 750px;
     color: white;
 }
