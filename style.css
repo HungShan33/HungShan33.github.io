@@ -3,29 +3,21 @@ body {
     font-family: 'Noto Sans TC', sans-serif;
     background-image: url(picture/15.jpg);
 }
-.color {
-    background-color:rgb(60, 100, 175) ;
-    width: 500px;
-    height: 550px;
-    margin-top: 80px;
-    margin-left: 250px;
-    border-radius: 8px;
-    padding: 60px 10px 10px 50px;
-    color: white;
-}
-.color h2 {
-    padding-top: 10px;
-}
-.color img {
-    margin-top: -250px;
-    margin-left: 250px;
-}
 .m {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: -120px;
-    margin-left: 300px;
+    margin-top: 40px;
+    margin-left: 90px;
 }
-.item > p {
+.me img {
+    margin-top: 10px;
+}
+.About {
+    color: white;
+    font-size: xx-large;
+    margin-top: 120px;
+    margin-left: 90px;
+}
+.item {
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
